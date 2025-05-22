@@ -1,7 +1,7 @@
 """data table definitions
 """
 # -- Imports --------------------------------------------------------------------------
-import pandera as pa
+import pandera.pandas as pa
 from pandera import DataFrameModel
 from pandera.typing import Bool, DateTime, Float, Int, Object, Series, String
 
